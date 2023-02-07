@@ -1,0 +1,9 @@
+package ch03.sec01;
+
+public class IncreaseDecreaseOperatorExample {
+	public static void main(String[] args) {
+		byte myVaule =127;
+		System.out.println("myVaule = "+myVaule);
+	}
+
+}

@@ -1,0 +1,16 @@
+package ch03.sec01;
+
+public class IncreaseDecreaseOperatorExample {
+	public static void main(String[] args) {
+		int a =12;
+		
+		System.out.println("a = "+a);
+		
+		int b = a<<2;
+		
+		System.out.println("b = "+b);
+		
+		
+	}
+
+}

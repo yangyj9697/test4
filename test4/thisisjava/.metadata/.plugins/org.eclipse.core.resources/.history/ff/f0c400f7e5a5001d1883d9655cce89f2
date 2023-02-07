@@ -1,0 +1,7 @@
+package ch05.sec06;
+
+public class ArrayCreateByVaueListExample2 {
+	public static void main(String[] args) {
+		//배열 변수 선언
+	}
+}

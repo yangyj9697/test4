@@ -1,0 +1,21 @@
+package repo;
+
+import java.util.Iterator;
+
+public class report {
+	public static void main(String[] args) {
+		String[] student = {"말자","영자","공자","순자"};
+		int [][] scores = {
+				{80,90,60,40},
+				{83,92,70,50},
+				{89,95,74,60}
+		};
+		System.out.println("번호 성명 국어 영어 수학 총점 평균 학점 등수");
+		int sum = 0;
+		for(int k=0; k<scores.length; k++) {
+		for(int i=0; i<student.length; i++) {
+			System.out.println(" "+(i+1)+"  "+student[i]+"  "+scores[0][i]+"  "+scores[1][i]+"  "+scores[2][i]+"  "+scores[k][i]);
+		}
+	}
+	}
+}

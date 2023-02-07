@@ -1,0 +1,11 @@
+package ch03.sec01;
+
+public class IncreaseDecreaseOperatorExample {
+	public static void main(String[] args) {
+		byte myValue =127;
+		System.out.println("myValue = "+myValue);
+		myValue++;
+		System.out.println("myValue = "+myValue);
+	}
+
+}
